@@ -30,7 +30,7 @@ export const education = [
 
 export const projects = [
   {
-    title: 'UFC Prediction Modeling',
+    title: 'UFC Predictions',
     date: 'Spring 2026',
     image: '/projects/ufc_predictions.png',
     summary:
