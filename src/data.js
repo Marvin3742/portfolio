@@ -48,7 +48,7 @@ export const projects = [
     summary: "Working through implementing my own ML library to gain a deeper understanding of the mathematics behind core ML algorithms, experience with numerical methods, and performance optimization. Includes custom matrix class, Scikit-Learn style API, and LU decompostition implementation.",
     tags: ["C++", "Linear Regression", "Linear Algebra"],
     writeup: 'https://medium.com/@marvin3742',
-    github: 'https://github.com/Marvin3742/UFC-Prediction-Modeling',
+    github: 'https://github.com/Marvin3742',
   },
 
   {
