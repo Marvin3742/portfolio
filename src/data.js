@@ -11,13 +11,13 @@ export const profile = {
   image: '/profile_image.png',
 };
 
-export const about = '';
+export const about = "Hi! I'm currently pursuing a masters in CS at GT trying to break into ML/DS. I love learning new things and spend my free time building things I'm interested in. Outside of academics, I train MMA and love watching the UFC!"
 
 export const education = [
   {
     school: 'Georgia Institute of Technology',
     degree: 'M.S. in Computer Science',
-    location: 'Atlanta, GA',
+    location: 'Remote',
     date: 'Dec 2027',
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: 'UFC Prediction Modeling',
     date: 'Spring 2026',
-    image: '/projects/ufc.svg',
+    image: '/projects/ufc_predictions.png',
     summary:
       'I wanted to see how far you could get predicting UFC fights from public data, so I built an ML pipeline designed to scale. A custom scraper pulls 8,500+ fights into a normalized PostgreSQL database, and SQL window functions reconstruct each fighter’s stats as they would have looked the day of the fight. Logistic Regression and KNN baselines land at 62.8% on a chronological holdout, served through a terminal app that scores upcoming cards and logs every prediction. Currently working on expanding data sources and more creative approaches to framing the outcome prediction problem.',
     tags: ['Scikit-Learn', 'Pandas', 'PostgreSQL', 'BeautifulSoup'],
@@ -43,7 +43,7 @@ export const projects = [
   {
     title: 'FacePortal.io',
     date: 'Fall 2025',
-    image: '/projects/faceportal.svg',
+    image: '/projects/faceportal.png',
     summary: 
     "A full-stack web app that lets users upload a photo and see themselves age forward or backward. Under the hood it uses encoder4editing, a model that maps real images into a GAN’s editable latent space, to project the photo into StyleGAN, a generative model for realistic faces. InterFaceGAN then shifts the image along a learned “age” direction in that space. A PyTorch backend runs in Docker on a Runpod GPU, and a React frontend is deployed on Vercel. ",
     tags: ['PyTorch', 'StyleGAN', 'FastAPI', 'React', 'Docker'],
