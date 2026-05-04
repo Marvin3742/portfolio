@@ -40,6 +40,17 @@ export const projects = [
     writeup: 'https://medium.com/@marvin3742/building-a-ufc-prediction-modeling-week-1-985f21849448',
     github: 'https://github.com/Marvin3742/UFC-Prediction-Modeling',
   },
+
+  {
+    title: 'miniML',
+    date: 'Spring 2026',
+    image: '/projects/lu.png',
+    summary: "Working through implementing my own ML library to gain a deeper understanding of the mathematics behind core ML algorithms, experience with numerical methods, and performance optimization. Includes custom matrix class, Scikit-Learn style API, and LU decompostition implementation.",
+    tags: ["C++", "Linear Regression", "Linear Algebra"],
+    writeup: 'https://medium.com/@marvin3742',
+    github: 'https://github.com/Marvin3742/UFC-Prediction-Modeling',
+  },
+
   {
     title: 'FacePortal.io',
     date: 'Fall 2025',
@@ -50,5 +61,6 @@ export const projects = [
     writeup: 'https://www.faceportal.io/',
     github: 'https://github.com/Marvin3742/face-portal-frontend',
   },
+
 ];
 
